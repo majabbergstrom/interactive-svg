@@ -6,6 +6,24 @@
   animation: right-translate 3s linear infinite;
 }
 
+#left-ear {
+  transition: all .5s linear;
+  transform-origin: 49px 49px;
+}
+
+#right-ear {
+  transition: all .5s linear;
+  transform-origin: 189px 48px;
+}
+
+#face:hover #left-ear {
+  transform: rotate(20deg);
+}
+
+#face:hover #right-ear {
+  transform: rotate(-20deg);
+}
+
 @keyframes translate {
 
   0% {
