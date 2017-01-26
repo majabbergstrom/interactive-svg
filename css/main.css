@@ -1,0 +1,39 @@
+#left-eye {
+  animation: translate 3s linear infinite;
+}
+
+#right-eye {
+  animation: right-translate 3s linear infinite;
+}
+
+@keyframes translate {
+
+  0% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translate(10px);
+  }
+
+  100% {
+    transform: translate(-10px);
+  }
+
+}
+
+@keyframes right-translate {
+
+  0% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translate(10px);
+  }
+
+  100% {
+    transform: translate(-10px);
+  }
+
+}
